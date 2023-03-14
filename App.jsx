@@ -1,4 +1,9 @@
-let Kittu = () => {
-    return<h1>nan dha uh purushan </h1>
+import Navbar from './Navbar/Navbar'
+let App = () => {
+    return
+    <div>
+        <Navbar />
+        <h1>hello broo</h1>
+    </div>
 }
-export default Kittu
+export default App
