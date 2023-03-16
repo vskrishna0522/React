@@ -1,10 +1,9 @@
 import React from 'react'
-import CompoclsA from './CompoclsA'
+import Bind from './Bind'
 let App = () => {
     return <div>
-        <h1>yow yow ena ya idhu ippudi react drilling pannirukinga</h1>
+        <h1>IDHU DHA BIND menthod</h1>
         <hr />
-        <CompoclsA/>
     </div>
 }
 export default App
