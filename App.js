@@ -1,20 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-//syntax of function in react// 
-function App() {
-  return (
-    <h1>good hhhhing</h1>
-  );
+import React from 'react'
+import CompoclsA from './CompoclsA'
+let App = () => {
+    return <div>
+        <h1>yow yow ena ya idhu ippudi react drilling pannirukinga</h1>
+        <hr />
+        <CompoclsA/>
+    </div>
 }
-export default App;
-
-//syntax of class in react
-class app extends React.Component{
-  render(){
-    return(
-      <h2>this is classs </h2>
-    )
-  }
-}
-export default app
-
+export default App
