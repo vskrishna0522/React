@@ -1,9 +1,15 @@
 import React from 'react'
-import Bind from './Bind'
-let App = () => {
-    return <div>
-        <h1>IDHU DHA BIND menthod</h1>
-        <hr />
-    </div>
+import Message from './Counter'
+const App = () => {
+    return (
+        <div>
+            <h1>MEIRA DHOSITH</h1>
+
+            <hr />
+            
+            <Message />
+        </div >
+    )
 }
+
 export default App
