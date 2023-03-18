@@ -1,13 +1,13 @@
 import React from 'react'
-import Message from './Counter'
+import Product  from './Product'
 const App = () => {
     return (
         <div>
-            <h1>MEIRA DHOSITH</h1>
+            <h1>THIS IS EXAMPLE OF STATES</h1>
 
             <hr />
             
-            <Message />
+            <Product />
         </div >
     )
 }
