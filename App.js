@@ -1,13 +1,13 @@
 import React from 'react'
-import Product  from './Product'
+import Formvaliupdatehandle from './Formvaliupdatehandle'
 const App = () => {
     return (
         <div>
-            <h1>THIS IS EXAMPLE OF STATES</h1>
+            <h1>THIS IS EXAMPLE OF FORMVALIDATION REACT</h1>
 
             <hr />
             
-            <Product />
+            <Formvaliupdatehandle />
         </div >
     )
 }
