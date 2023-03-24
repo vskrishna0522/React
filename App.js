@@ -1,14 +1,20 @@
 import React from 'react'
-import Formvaliupdatehandle from './Formvaliupdatehandle'
+import Navbarlink from './Navbarlink'
+import Homenav from './Homenav'
+import Servicenav from './Servicenav'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 const App = () => {
     return (
         <div>
-            <h1>THIS IS EXAMPLE OF FORMVALIDATION REACT</h1>
-
-            <hr />
-            
-            <Formvaliupdatehandle />
-        </div >
+            <Router>          
+            <Navbarlink />
+               <Switch>
+                    <Route path="/Homenav" component={Homenav} />
+                    <Route path="/Servicenav" component={Servicenav} />
+               </Switch>
+            </Router>
+        </div>
     )
 }
 
