@@ -1,9 +1,9 @@
 let GM = 'namasthei ji'
 let GN = 'dhaniyawad ji'
 let gmAction = () => {
-    return { type : GM, vannakam}
+    return { type : GM, hu: 'vannakam'}
 }
 let gnAction = () => {
-    return { type : GN, poietuva}
+    return { type : GN, yo: 'poietuva' }
 }
 export { gmAction, gnAction, GM, GN }
