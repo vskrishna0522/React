@@ -1,21 +1,14 @@
-import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Digiclock from './Digiclock'
-class App extends Component {
-    render() {
-        return (
-         <>
-            <div>
-                <Router>
-                    <Digiclock/>
-                    <Routes>
-                        <Route path="/Digiclock" element={Digiclock } />
-                    </Routes>
-                </Router>
-            </div>
-        </>
-        )
-    }
-}
+import React from 'react';
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
+import Counter from './Counter/Counter'
+const App = () => {
+    return <div>
+        <Provider store={store}>
+            <h1> App Component</h1>
+            <Counter />
+        </Provider>
+    </div>
 
+}
 export default App
