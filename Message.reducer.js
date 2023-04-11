@@ -1,18 +1,19 @@
-import { GM, GN } from './message.action'
+import { UP, DOWN } from "./Message.action"
 let initialState = {
-    msg: "How r u"
+    msg: "life has many ups and downs"
 }
 let messageReducer = (state = initialState, action) => {
-    console.log(action.type)
-    switch (action.type) {
-        case GM:
-            return {
-                msg: "have a nice day"
+        switch (action.type) {
+            case UP: 
+            return{
+                msg : "so, don't give up"
             }
-        case GN:
-            return { msg: "have a good day" }
-        default:
-            return state;
-    }
+            case DOWN:
+                return{
+                    msg: "life has many happenning moments"
+                }
+                default:
+                    return state;
+        }
 }
-export { messageReducer }
+export {messageReducer}
